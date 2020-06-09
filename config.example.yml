@@ -1,0 +1,16 @@
+#Telegram bot to automatically add reactions to channel's posts
+#    Copyright (C) 2020  Michele Viotto
+bot_token: "BOT_TOKEN"
+
+database_data:
+  provider: postgres
+  user: user
+  password: password
+  host: localhost
+  database: postreactions
+
+supported_langs:
+  en:
+    emoji: 🇬🇧
+  it:
+    emoji: 🇮🇹

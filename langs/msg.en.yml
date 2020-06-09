@@ -1,0 +1,44 @@
+#Telegram bot to automatically add reactions to channel's posts
+#    Copyright (C) 2020  Michele Viotto
+en:
+  start_not_subscribed: >
+    Hello %{name}!
+
+    Select the bot language using the buttons below.
+
+  start_command: Hello, %{name}!
+
+  change_language_callback_button: Change language
+  change_language: Select the bot language using the buttons below.
+
+  add_channel: >
+    Add me as an administrator in your channel
+    and forward here a message from the channel.
+
+    For the bot to work it needs at least the permission to edit messages of others
+    and to send messages (only one message will be sent to verify that the bot has been
+    added to the channel)
+  add_channel_button: Add channel
+  channel_added: >
+    You successfully added *%{title}*!
+
+    Click the button below to start configuring your channel.
+  configure_channel_button: Configure channel
+  bot_not_in_channel: >
+    Check that the bot is admin on the channel *%{title}* and retry.
+  channel_already_added: Channel *%{title}* already registered.
+  show_channels_button: Channels list
+  show_channels: >
+    Here is the list of you channels.
+
+    Choose the channel you want to configure below.
+  no_channels: You haven't added any channel.
+  toggle_reactions_button: "Reactions: %{status}"
+  configure_channel: >
+    Configuring channel: *%{title}*
+
+    Use buttons below to configure your channel.
+
+  cancel_operation_button: Cancel
+
+  wrong_forward_type: You must forward a channel message.
